@@ -19,9 +19,13 @@ class Globo
 
   void dibujate()
   {
+
       fill(c);
       ellipse(x,y,100,100);
-      
+  
+      ///imageMode(CENTER);
+      ellipse(x,y,100,100);
+      //image(cara, x, y, 40, 40);
   }
   
 }
@@ -33,11 +37,13 @@ void setup()
 {
   size(640,680);
   globos = new ArrayList<Globo>();  
+  //cara = loadImage("face.png");
 }
 
 void draw()
 {
   background(255);
+  //image(cara, 0, 0);
   for(int i=0;i<globos.size();i++)
   {
     globos.get(i).update();
