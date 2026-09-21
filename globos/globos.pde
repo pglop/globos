@@ -13,10 +13,9 @@ class Globo
 
   void update()
   {
-    y+=vy;
+    y+=vy; //luis eres el mejor
     x+=vx;
   }
-
   void dibujate()
   {
 
