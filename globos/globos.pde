@@ -4,7 +4,7 @@ class Globo
   color c;
   Globo (float _x, float _y)
   {
-   x=_x;
+   x=_x; //
    y=_y; 
    vx=random(-0.25,0.25);
    vy=random(-2,-0.5);
